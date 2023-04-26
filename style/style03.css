@@ -1,0 +1,137 @@
+header {
+    position: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #004d4d;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .header-logo img {
+    max-height: 50px;
+  }
+  
+  .header-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-nav li {
+    margin-left: 20px;
+  }
+  
+  .header-nav a {
+    text-decoration: none;
+    color: #959595;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+  
+  .header-nav a:hover {
+    color: #0066cc;
+  }
+.container {
+    display: flex;
+}
+.profile {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin: 20px;
+ flex:1;
+ background-color:#004d4d;
+ padding:5px;
+ border-radius: 10px; 
+}
+
+.profile img {
+ width: 200px;
+ height: 200px;
+ border-radius: 50%;
+ object-fit: cover;
+ margin-bottom: 10px;
+}
+
+.profile h2 {
+ font-size: 24px;
+ margin-bottom: 5px;
+ color:#fff;
+}
+
+.profile h3 {
+ font-size: 20px;
+ text-align: center;
+ color:#fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    opacity: 0.8;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  
+  .footer-col {
+    flex: 1;
+    margin-right: 30px;
+  }
+  
+  .footer-col:last-child {
+    margin-right: 0;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .social-links a {
+    color: #fff;
+    font-size: 1.5em;
+  }
+  
+  .social-links a:hover {
+    color: #f00;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    font-size: 0.8em;
+  }
